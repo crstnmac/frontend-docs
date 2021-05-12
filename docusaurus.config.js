@@ -8,25 +8,25 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "globallogic", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "furnitrace-documentation", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Furnitrace Docs",
-      logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
-      },
+      // logo: {
+      //   alt: "My Site Logo",
+      //   src: "img/logo.svg",
+      // },
       items: [
         {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial",
+          label: "Requirements",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://gitlab-gl.stackroute.in/team007",
+          label: "Gitlab",
           position: "right",
         },
       ],
@@ -38,28 +38,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Requriements",
               to: "/docs/intro",
             },
           ],
         },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
+
         {
           title: "More",
           items: [
@@ -68,13 +52,13 @@ module.exports = {
               to: "/blog",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://gitlab-gl.stackroute.in/team007",
+              label: "Gitlab",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Furnitrace, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
